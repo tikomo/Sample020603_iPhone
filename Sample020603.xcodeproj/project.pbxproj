@@ -21,6 +21,8 @@
 		E1C90D2118A37995009BDC6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C90D0318A37995009BDC6E /* UIKit.framework */; };
 		E1C90D2918A37995009BDC6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1C90D2718A37995009BDC6E /* InfoPlist.strings */; };
 		E1C90D2B18A37995009BDC6E /* Sample020603Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C90D2A18A37995009BDC6E /* Sample020603Tests.m */; };
+		E1C90D3818A379CE009BDC6E /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = E1C90D3718A379CE009BDC6E /* readme.txt */; };
+		E1C90D3B18A37A5E009BDC6E /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C90D3A18A37A5E009BDC6E /* Food.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		E1C90D2618A37995009BDC6E /* Sample020603Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sample020603Tests-Info.plist"; sourceTree = "<group>"; };
 		E1C90D2818A37995009BDC6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E1C90D2A18A37995009BDC6E /* Sample020603Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sample020603Tests.m; sourceTree = "<group>"; };
+		E1C90D3718A379CE009BDC6E /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		E1C90D3918A37A5E009BDC6E /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Food.h; path = ../Food.h; sourceTree = "<group>"; };
+		E1C90D3A18A37A5E009BDC6E /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Food.m; path = ../Food.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,7 @@
 		E1C90CF318A37995009BDC6E = {
 			isa = PBXGroup;
 			children = (
+				E1C90D3718A379CE009BDC6E /* readme.txt */,
 				E1C90D0518A37995009BDC6E /* Sample020603 */,
 				E1C90D2418A37995009BDC6E /* Sample020603Tests */,
 				E1C90CFE18A37995009BDC6E /* Frameworks */,
@@ -112,6 +118,8 @@
 		E1C90D0518A37995009BDC6E /* Sample020603 */ = {
 			isa = PBXGroup;
 			children = (
+				E1C90D3918A37A5E009BDC6E /* Food.h */,
+				E1C90D3A18A37A5E009BDC6E /* Food.m */,
 				E1C90D0E18A37995009BDC6E /* AppDelegate.h */,
 				E1C90D0F18A37995009BDC6E /* AppDelegate.m */,
 				E1C90D1118A37995009BDC6E /* Main.storyboard */,
@@ -230,6 +238,7 @@
 			files = (
 				E1C90D1818A37995009BDC6E /* Images.xcassets in Resources */,
 				E1C90D0A18A37995009BDC6E /* InfoPlist.strings in Resources */,
+				E1C90D3818A379CE009BDC6E /* readme.txt in Resources */,
 				E1C90D1318A37995009BDC6E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1C90D1618A37995009BDC6E /* ViewController.m in Sources */,
+				E1C90D3B18A37A5E009BDC6E /* Food.m in Sources */,
 				E1C90D1018A37995009BDC6E /* AppDelegate.m in Sources */,
 				E1C90D0C18A37995009BDC6E /* main.m in Sources */,
 			);
